@@ -5,14 +5,14 @@ const apiRoutes = require("./routes/apiRoutes");
 // instantiate express
 const app = express();
 // set port number
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8090;
 // configure the express app to serve static files and to handle data decoding 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("assets"));
+app.use(express.static("public"));
 
-htmlRoutes(app);
 apiRoutes(app);
+htmlRoutes(app);
 
 
 app.listen(PORT, ()=>{
