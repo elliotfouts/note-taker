@@ -11,13 +11,16 @@ const PORT = process.env.PORT || 8090;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
-// connect to mongo
-mongoose.connect('mongodb://localhost/noteTaker', { useNewUrlParser: true })
-  .catch((error) => console.log(error));
+// connect to mongoDB
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/noteTaker', {
+  useUnifiedTopology: true,
+  useNewUrlParser: true,
+  useCreateIndex: true,
+});
 // routes
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server listening at PORT: ${PORT}`);
+  console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
