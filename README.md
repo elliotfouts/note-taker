@@ -1,47 +1,18 @@
 
+![Licence](https://img.shields.io/badge/license-MIT-blue) ![Website](https://img.shields.io/badge/website-up-brightgreen) [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) ![Lint Rules](https://img.shields.io/badge/codestyle-airbnb-brightgreen) ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) 
+
 # Express Note Taker 
-Author: Elliot Fouts
-[![Travis CI](https://travis-ci.org/tterb/yt2mp3.svg?branch=master)](https://travis-ci.org/tterb/yt2mp3)
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
-[![GitHub followers](https://img.shields.io/github/followers/elliotfouts.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/elliotfouts?tab=followers)
+[Deployed](www.google.com) | [Demonstration](www.google.com)
 
-View project <a target="blank" href="https://elliotfouts.github.io/note-taker/">here</a>.
+# Description
+a web application that allows users to save and edits notes 
 
-# Table of Contents 
-- <a href="#description">Description</a>
-- <a href="#installation">Installation</a>
-- <a href="#usage">Usage</a>
-- <a href="#licensing">Licensing</a>
-- <a href="#contributions">Contributions</a>
 
-# Description 
-
-a note taking app built with express.js
-
-# Installation 
-
-NA 
+# How it Works
+this app uses a REST API connected to the mongoose ODM to perform CRUD operations for manipulating the users' notes. I used an exprerss server as the controller for the application and built the front-end with the bootstrap CSS framework. I used webpack to bundle the build
 
 # Usage 
+Because this application does not have authentication I am not currently allowing people to visit the page. However, you can view the demonstration to see how it works!
 
-NA
-
-# Licensing 
-
-NA
-
-# Contributions 
-
-NA
-
-# Testing 
-
-NA
-
-# Questions 
-
-Email: elliotfouts@gmail.com
-<br>
-<img src=""></img> 
-![](screen-recorder.gif)  
-    
+# Contact
+email: elliotfouts@gmail.com
