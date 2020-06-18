@@ -1,8 +1,8 @@
 // import requried modules
 const express = require('express');
 const mongoose = require('mongoose');
-const htmlRoutes = require('./routes/htmlRoutes');
-const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./controller/htmlRoutes');
+const apiRoutes = require('./controller/apiRoutes');
 // instantiate express
 const app = express();
 // set port number
