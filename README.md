@@ -2,7 +2,7 @@
 ![Licence](https://img.shields.io/badge/license-MIT-blue) ![Website](https://img.shields.io/badge/website-up-brightgreen) [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) ![Lint Rules](https://img.shields.io/badge/codestyle-airbnb-brightgreen) ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) 
 
 # Express Note Taker 
-[Deployed](www.google.com) | [Demonstration](www.google.com)
+[Deployed](https://etf-express-notetaker.herokuapp.com/) | [Demonstration](www.google.com)
 
 # Description
 a web application that allows users to save and edits notes 
